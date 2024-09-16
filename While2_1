@@ -16,16 +16,4 @@ public class While2_1 {
     }
 }
 
- /*변수를 사용해서 더 쉬운 코드로 만듦
-        int sum = 0;
-        int i = 1;
-        sum = sum +i;
-        System.out.println("i=" + i + " sum=" + sum);
-        i++;
-        sum = sum +i;
-        System.out.println("i=" + i + " sum=" + sum);
-        i++;
-       sum = sum +i;
-        System.out.println("i=" + i + " sum=" + sum);
-        i++;
-*/
+ 

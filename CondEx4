@@ -1,0 +1,21 @@
+package cond;
+/*평점에 따른 영화 추천하기
+-어바웃타임: 평점 9점
+- 토이 스토리: 평점 8점
+- 고질라: 평점 7점
+평점 변수는 double rating을 사용하고 if문 사용*/
+public class CondEx4 {
+    public static void main(String[] args) {
+        double rating = 7.1;
+
+        if (rating <= 9) {
+            System.out.println("어바웃 타임");
+        }
+        if (rating <= 8) {
+            System.out.println("토이스토리");
+        }
+        if (rating <= 7) {
+            System.out.println("고질라");
+        }
+    }
+}

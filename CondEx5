@@ -1,0 +1,29 @@
+package cond;
+/*학점에 따른 성취도 출력
+String grade라는 문자열 만들고 학점에 따른 성취도 출력 프로그램을 만들어라*/
+
+public class CondEx5 {
+    public static void main(String[] args) {
+        String grade = "A";
+
+        switch (grade) {
+            case "A":
+                System.out.println("탁월한 성과입니다.");
+                break;
+            case "B":
+                System.out.println("좋은 성과입니다.");
+                break;
+            case"C":
+                System.out.println("준수한 성과입니다.");
+                break;
+            case"D":
+                System.out.println("향상이 필요합니다.");
+                break;
+            case"F":
+                System.out.println("불합격 입니다.");
+                break;
+            default:
+                System.out.println("잘못된 값입니다.");
+        }
+    }
+}
